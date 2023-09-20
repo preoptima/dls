@@ -1,48 +1,45 @@
-import BaseButton from '@/components/dls/BaseButton.vue'
+import BaseButton from "@/components/dls/BaseButton.vue";
 
 export default {
-  title: 'Components/BaseButton',
-  component: BaseButton
-}
+  title: "Components/BaseButton",
+  component: BaseButton,
+};
 
-export const Primary = {
+const base = {
   parameters: {
     design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/jyRuiZGTRyBAdifCSwsbta/Preoptima-DLS?type=design&node-id=59-1770'
-    }
+      type: "figma",
+      url: "https://www.figma.com/file/jyRuiZGTRyBAdifCSwsbta/Preoptima-DLS?type=design&node-id=59-1770",
+    },
   },
   render: (args) => ({
     components: { BaseButton },
     template: '<BaseButton v-bind="args">Primary button</BaseButton>',
     setup() {
       return {
-        args
-      }
-    }
+        args,
+      };
+    },
   }),
   args: {
-    disabled: false
-  }
-}
+    disabled: false,
+  },
+};
+
+export const Primary = {
+  ...base,
+};
 
 export const Secondary = {
-  parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/jyRuiZGTRyBAdifCSwsbta/Preoptima-DLS?type=design&node-id=59-1877'
-    }
-  },
+  ...base,
   render: (args) => ({
     components: { BaseButton },
-    template: '<BaseButton v-bind="args" secondary>Secondary button</BaseButton>',
+    template:
+      '<BaseButton v-bind="args" secondary>Secondary button</BaseButton>',
     setup() {
       return {
-        args
-      }
-    }
+        args,
+      };
+    },
   }),
-  args: {
-    disabled: false
-  }
-}
+};
