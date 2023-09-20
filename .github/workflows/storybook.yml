@@ -1,7 +1,5 @@
 name: Build and Deploy
-on:
-  push:
-    paths: ['src/stories/**', 'src/components/dls/**']
+on: push
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
