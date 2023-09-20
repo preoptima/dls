@@ -1,0 +1,1 @@
+.BaseDialog{background-color:var(--white);padding:var(--size-l);border-radius:var(--size-m);box-shadow:0 8px 8px -4px #00000008,0 20px 24px -4px #00000014;margin:0 auto;max-width:500px}.BaseDialog .title{margin-block:0}.sm{max-width:300px}.lg{max-width:800px}.xl{max-width:1140px}
