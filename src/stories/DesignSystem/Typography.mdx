@@ -1,0 +1,59 @@
+import { Meta, Typeset, Unstyled } from '@storybook/blocks'
+import '@/styles/index.css'
+
+<Meta title="Design System/Typography" />
+
+export const typography = {
+  type: {
+    primary: '"SF Pro Display"'
+  },
+  weight: {
+    book: '400',
+    bold: '700'
+  },
+  size: {
+    20: 20,
+    s2: 14,
+    s3: 16,
+    m1: 20,
+    m2: 24,
+    m3: 28,
+    l1: 32,
+    l2: 40,
+    l3: 48
+  }
+}
+
+# Typography
+
+**Font:** SF Pro Display
+
+**Weights:** 400(book), 700(bold)
+
+<Typeset
+  fontSizes={[48, 32, 24, 20, 16, 14, 12]}
+  fontWeight={typography.weight.book}
+  sampleText="Lorem ipsum dolor sit amet"
+  fontFamily={typography.type.primary}
+/>
+
+## Headings
+
+<Unstyled>
+  <h1 class="heading-04">Heading 04 </h1>
+  <h2 class="heading-03">Heading 03</h2>
+  <h3 class="heading-02">Heading 02</h3>
+  <h4 class="heading-01">Heading 01</h4>
+</Unstyled>
+
+## UI
+
+<Unstyled>
+  <p class="ui-large-book">UI Large Book</p>
+  <p class="ui-large-bold">UI Large Bold</p>
+  <p class="ui-large-link">UI Large Link</p>
+  <p class="ui-medium-book">UI Medium Book</p>
+  <p class="ui-medium-bold">UI Medium Bold</p>
+  <p class="ui-small-book">UI Small Book</p>
+  <p class="ui-small-bold">UI Small Bold</p>
+</Unstyled>

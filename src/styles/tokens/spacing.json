@@ -1,0 +1,51 @@
+{
+  "size-tiny": {
+    "value": "2px"
+  },
+  "size-xxs": {
+    "value": "4px"
+  },
+  "size-xs": {
+    "value": "8px"
+  },
+  "size-s": {
+    "value": "12px"
+  },
+  "size-m": {
+    "value": "16px"
+  },
+  "size-ml": {
+    "value": "24px"
+  },
+  "size-xl": {
+    "value": "40px"
+  },
+  "size-l": {
+    "value": "32px"
+  },
+  "size-xxl": {
+    "value": "60px"
+  },
+  "size-huge": {
+    "value": "100px"
+  },
+  "input-height": {
+    "value": "{size-xl}"
+  },
+  "input-corner": {
+    "value": "{size-tiny}"
+  },
+  "button-height": {
+    "value": "{size-xl}"
+  },
+  "button-corner": {
+    "value": "{size-xxs}"
+  },
+  "button-padding": {
+    "value": "{size-m}"
+  },
+  "icon-big-stroke": {
+    "type": "dimension",
+    "value": "1px"
+  }
+}
