@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "build-storybook -o docs-build"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16",
